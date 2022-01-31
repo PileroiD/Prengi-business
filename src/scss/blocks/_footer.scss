@@ -1,0 +1,47 @@
+.footer {
+    background-color: #47829F;
+    padding: 50px 0 40px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__about {
+        width: 380px;
+        &__img {
+            margin-top: 16px;
+        }
+        &__text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #fff;
+            line-height: 1.36;
+            margin-top: 20px;
+        }
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+    }
+    &__modules, &__industry, &__about-us {
+        list-style-type: none;
+    }
+    &-item {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #fff;
+        a {
+            color: #fff;
+        }
+    }
+    hr {
+        margin: 44px 0 36px 0;
+    }
+    &__rules {
+        font-size: 13px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+    }
+}

@@ -1,0 +1,45 @@
+.solutions {
+    background: url('../img/bg/bg_2.png') center center/cover no-repeat;
+    padding: 80px 0 60px 0; 
+    &__menu {
+        list-style-type: none;
+        width: 843px;
+        height: 65px;
+        border: solid 1px #fff;
+        border-radius: 4px;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-item {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            &::after {
+                content: "";
+                width: 1px;
+                background-color: #fff;
+                height: 50px;
+                display: block;
+                margin: 0 24px;
+                opacity: .5;
+            }
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    &__carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        &__img {
+            margin: 0 30px;
+        }
+    }
+}
